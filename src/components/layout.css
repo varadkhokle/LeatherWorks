@@ -2,5 +2,11 @@
   background-color: #7a5050;
 }
 .hero-background {
+  min-height: 90vh;
+  /* filter: brightness(40%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   
 }

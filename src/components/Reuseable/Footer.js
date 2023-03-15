@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="container-fluid">
                <div className="row">
                <div className="col-12 pt-2 mx-auto text-center bg-dark text-light">
-                      <h6>Awsome footer</h6>
+                      <h6>Awsome footer &copy; 2023 </h6>
                </div>
             
                 </div>
