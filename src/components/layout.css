@@ -10,3 +10,12 @@
   flex-direction: column;
   
 }
+.about-background {
+  min-height: 30vh;
+  /* filter: brightness(40%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
