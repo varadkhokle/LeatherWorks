@@ -20,8 +20,8 @@ return (
      <Seo title="Home"/>
      <HeroSection
      img={data.img.childImageSharp.fluid}
-     title="I write a code"
-     subtitle="LeatherWorks.in"
+     title="Website is under construction!!"
+     subtitle="HandFeatures.in"
      heroclass="hero-background"
      />
      <InfoBlock heading="About us"></InfoBlock>
