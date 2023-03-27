@@ -8,6 +8,7 @@ import Seo from "../components/seo"
 import HeroSection from "../components/Reuseable/HeroSection"
 import InfoBlock from "../components/Reuseable/infoblock"
 import DualInfoBlock from "../components/Reuseable/DualInfoBlock"
+import CourseCart from "../components/Cart/CourseCart"
 import { graphql } from "gatsby"
 
 
@@ -24,6 +25,8 @@ return (
      heroclass="hero-background"
      />
      <InfoBlock heading="About us"></InfoBlock>
+
+     <CourseCart products={data.products}/>
      <DualInfoBlock heading="OUR TEAM"/>
     </Layout>
 )
@@ -44,6 +47,24 @@ export const query=graphql`
             }
         }
     }
+    products:allContentfulProducts{
+        edges{
+          node{
+            id
+        title
+        price
+        categry
+        description {
+          description
+        }
+        image{
+          url
+        }
+           
+          }
+        }
+      }
 }
 `
 export default IndexPage
+

@@ -18,7 +18,7 @@ Behind the brand is the visionary creative force of Srikant Tiwari the Founder a
 
 Thanks to visit our site
             </p>
-            <Link to="/about/">
+            <Link to="/about">
               <button className="btn btn-warning btn-lg">
                 {heading}
 

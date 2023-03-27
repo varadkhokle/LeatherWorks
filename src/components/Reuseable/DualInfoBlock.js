@@ -19,12 +19,12 @@ Thanks to visit our site
            </p>
         </div>
         <div className='col-4'>
-        <div class="card" >
+        <div className="card" >
   <img src="..." class="card-img-top" alt="image goes here"/>
-  <div class="card-body">
-    <h5 class="card-title">Just Click Photos</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <Link href="#" class="btn btn-warning btn-block">{heading}</Link>
+  <div className="card-body">
+    <h5 className="card-title">Just Click Photos</h5>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <Link href="#" className="btn btn-warning btn-block">{heading}</Link>
   </div>
 </div>
 
